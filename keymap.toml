@@ -1,0 +1,11 @@
+[manager]
+prepend_keymap = [
+    { on = "<C-g>", run = 'cd --interactive', desc = "Navigate to a specific path" }
+]
+
+append_keymap = [
+    { on = [ "g", "p" ], run = "cd ~/Projects", desc = "Go to Projects" },
+    { on = [ "g", "d" ], run = "cd ~/Downloads", desc = "Go to Downloads" },
+    { on = [ "g", "x" ], run = "cd /Applications/XAMPP/htdocs", desc = "Go to htdocs" }
+]
+
