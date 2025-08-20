@@ -1,0 +1,71 @@
+[[mgr.prepend_keymap]]
+on   = [ "g", "d" ]
+run  = "cd ~/Downloads"
+desc = "Jump to Downloads"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "p" ]
+run  = "cd ~/Projects"
+desc = "Jump to Projects"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "b" ]
+run  = "cd ~/bay"
+desc = "Jump to bay"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "a" ]
+run  = "cd ~/.local/share/applications"
+desc = "Jump to applications"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "c" ]
+run  = "cd ~/.config"
+desc = "Jump to .config"
+
+# Sorting keybindings
+[[mgr.prepend_keymap]]
+on   = [ ",", "M" ]
+run  = "sort modified --reverse"
+desc = "Sort by modified time (newest first)"
+
+[[mgr.prepend_keymap]]
+on   = [ ",", "m" ]
+run  = "sort modified"
+desc = "Sort by modified time (oldest first)"
+
+[[mgr.prepend_keymap]]
+on   = [ ",", "C" ]
+run  = "sort created --reverse"
+desc = "Sort by creation time (newest first)"
+
+[[mgr.prepend_keymap]]
+on   = [ ",", "c" ]
+run  = "sort created"
+desc = "Sort by creation time (oldest first)"
+
+[[mgr.prepend_keymap]]
+on   = [ ",", "n" ]
+run  = "sort alphabetical"
+desc = "Sort alphabetically"
+
+[[mgr.prepend_keymap]]
+on   = [ ",", "N" ]
+run  = "sort alphabetical --reverse"
+desc = "Sort alphabetically (reverse)"
+
+[[mgr.prepend_keymap]]
+on   = [ ",", "s" ]
+run  = "sort size"
+desc = "Sort by size (smallest first)"
+
+[[mgr.prepend_keymap]]
+on   = [ ",", "S" ]
+run  = "sort size --reverse"
+desc = "Sort by size (largest first)"
+
+[[mgr.prepend_keymap]]
+on   = [ ",", "e" ]
+run  = "sort extension"
+desc = "Sort by extension"
+
